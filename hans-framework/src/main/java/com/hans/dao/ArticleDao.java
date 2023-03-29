@@ -1,7 +1,7 @@
 package com.hans.dao;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.hans.domain.entity.Article;
+import com.hans.entity.Article;
 import org.apache.ibatis.annotations.Mapper;
 
 
@@ -9,7 +9,7 @@ import org.apache.ibatis.annotations.Mapper;
  * 文章表(Article)表数据库访问层
  *
  * @author makejava
- * @since 2023-03-10 20:47:26
+ * @since 2023-03-25 00:48:09
  */
 @Mapper
 public interface ArticleDao extends BaseMapper<Article> {

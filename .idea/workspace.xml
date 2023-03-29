@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dd737071-c9d4-4eab-9b32-fd54c8b36491" name="Changes" comment="完善项目功能">
+      <changelist_data name="Yozuru" email="yozuru@huel.com" />
+      <change afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/LogoutController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/UserInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/UserLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/user/MainApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/user/Trader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/user/Transaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-blog/src/test/java/Testq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/Constants/RedisConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/Constants/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/Constants/SystemConstantsCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/commen/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/config/MybatisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dto/UserDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/entity/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/handler/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/securityAll/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/securityAll/SecurityLoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/securityAll/SecurityUserCheckDetailsImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/units/Jwt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/HotArticleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/LoginUserVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/AdminApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/AdminLoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/ArticleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/CategoryController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/MenuController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/RoleController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/TagController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/UploadController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/java/com/yozuru/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-admin/src/main/resources/config/application-devMVC.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hans-blog/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/BlogBegin.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/BlogBegin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/securityAll/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/config/SwaggerConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/ArticleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/CommentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/CommentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/LinkController.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/LinkController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/LoginController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/filter/JwtAuthenticationTokenFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/job/TestJob.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/runner/TestRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-blog/src/main/java/com/hans/runner/ViewCountRunner.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/annotation/SystemLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/aspect/LogAspect.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/config/MyBatisPlusConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/config/WebConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/config/WebConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/constants/SystemConstant.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/ArticleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/ArticleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/CommentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/CommentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/LinkDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/LinkDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/dto/AddComment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/entity/Article.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/entity/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/entity/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/entity/Link.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/entity/LoginUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/entity/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/ArticleDetailVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/ArticleDetailVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/ArticleListVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/ArticleListVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/BlogUserLoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/CategoryVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/CommentVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/CommentVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/HotArticlesVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/LInkVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/LInkVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/PageVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/UserInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/vo/UserInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/domain/vo/UserLoginVo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/enums/AppHttpCodeEnum.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/exception/SystemException.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/exception/SystemException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/handler/exception/GlobalExceptionHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/handler/mybatisplus/MyMetaObjectHandler.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/handler/security/AccessDeniedHandlerImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/handler/security/AuthenticationEntryPointImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/response/ResponseResult.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/ArticleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/ArticleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/BlogUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/CommentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/CommentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/LinkService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/LinkService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/ArticleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/BlogUserServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/CommentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/LinkServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/LinkServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/service/impl/UserDetailImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/utils/BeanCopyUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/utils/FastJsonRedisSerializer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/utils/GetUserId.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/utils/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/utils/RedisCache.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/utils/SecurityUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/hans-framework/src/main/java/com/hans/utils/WebUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yozuru &lt;yozuru@huel.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MoNo28Y5D7hJxzv0xLhMQ0IImC" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hans/Desktop/HansBlog/hans-framework/src/main/java/com/hans&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;6905f22b5e508fcb718ee34cc236df72&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hans\Desktop\HansBlog\hans-framework\src\main\java\com\hans" />
+      <recent name="C:\Users\hans\Desktop\HansBlog\hans-framework\src\main\java\com\hans\vo" />
+      <recent name="C:\Users\hans\Desktop\HansBlog\hans-framework\src\main\java\com\hans\handle" />
+      <recent name="C:\Users\hans\Desktop\HansBlog\hans-framework\src\main\java\com\hans\utils" />
+      <recent name="C:\Users\hans\Desktop\HansBlog\hans-blog" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hans.vo" />
+      <recent name="com.hans.units" />
+      <recent name="com.hans.domain" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BlogBegin">
+    <configuration name="Jwt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hans.units.Jwt" />
+      <module name="hans-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hans.units.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtVerify" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hans.units.JwtVerify" />
+      <module name="hans-framework" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hans.units.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testq.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hans-blog" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testq" />
+      <option name="METHOD_NAME" value="test10" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Testq.test9" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hans-blog" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Testq" />
+      <option name="METHOD_NAME" value="test9" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogBegin" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="hans-blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hans.BlogBegin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hans.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="lua.app" factoryName="Lua Application">
+      <option name="program" value="lua.exe" />
+      <option name="file" value="" />
+      <option name="workingDir" value="$PROJECT_DIR$/hans-blog/src/main/java" />
+      <option name="debuggerType" value="1" />
+      <option name="params" value="" />
+      <option name="charset" value="UTF-8" />
+      <option name="showConsole" value="true" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.BlogBegin" />
+        <item itemvalue="Application.JwtVerify" />
+        <item itemvalue="JUnit.Testq.test10" />
+        <item itemvalue="JUnit.Testq.test9" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dd737071-c9d4-4eab-9b32-fd54c8b36491" name="Changes" comment="" />
+      <created>1678430146911</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1678430146911</updated>
+      <workItem from="1678430148140" duration="1700000" />
+      <workItem from="1678446109815" duration="1805000" />
+      <workItem from="1678448308052" duration="8076000" />
+      <workItem from="1678493175666" duration="20210000" />
+      <workItem from="1678521277400" duration="21207000" />
+      <workItem from="1678592531724" duration="19948000" />
+      <workItem from="1678970611913" duration="5798000" />
+      <workItem from="1679029452571" duration="15172000" />
+      <workItem from="1679119225561" duration="4751000" />
+      <workItem from="1679671596873" duration="8255000" />
+      <workItem from="1679717102912" duration="15477000" />
+      <workItem from="1679749738956" duration="9575000" />
+      <workItem from="1679805575124" duration="24958000" />
+      <workItem from="1679845139074" duration="1887000" />
+      <workItem from="1679888555045" duration="17226000" />
+      <workItem from="1679977758703" duration="20257000" />
+      <workItem from="1680051297697" duration="9559000" />
+      <workItem from="1680075788264" duration="1828000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完善项目功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善项目功能" />
+  </component>
+</project>

@@ -1,13 +1,10 @@
 package com.hans.controller;
 
-import com.hans.domain.entity.Article;
-import com.hans.response.ResponseResult;
+import com.hans.commen.ResponseResult;
+import com.hans.entity.Article;
 import com.hans.service.ArticleService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -18,14 +15,19 @@ public class ArticleController {
     @Autowired
     private ArticleService articleService;
 
-    @GetMapping("/hotArticleList")
-    public ResponseResult GetHotArticle(){
-        return articleService.GetHotArticle();
+    @GetMapping("/list")
+    public List<Article> articleList(){
+        return articleService.list();
     }
 
 
+    @GetMapping("/hotArticleList")
+    public ResponseResult hotArticleList(){
+        return articleService.hotArticleList();
+    }
+
     @GetMapping("/articleList")
-    public ResponseResult articleList(Integer pageNum,Integer pageSize,Long categoryId){
+    public ResponseResult articleList(@RequestBody Integer pageNum, Integer pageSize, Long categoryId){
         return articleService.articleList(pageNum,pageSize,categoryId);
     }
 
@@ -34,4 +36,7 @@ public class ArticleController {
     public ResponseResult getArticleDetail(@PathVariable("id") Long id){
         return articleService.getArticleDetail(id);
     }
+
+
+
 }
